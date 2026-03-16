@@ -1,6 +1,6 @@
 ---
 
-# rave_round_robins
+## rave_round_robins
 
 * **`generate_snares`**: insert path to a sample and the `.ts` file you want to use, creates 20 samples with variance defined by the variance variable
 * **`padscript`**: short script to pad the length of our audio files to 1.5 seconds to work with the training
@@ -54,5 +54,3 @@ rave export --run runs/large_run_blahblah --ckpt runs/large_run_blahblah/version
 9. **Generate**: use `generate_snares`
 
 ---
-
-Would you like me to go through and fix the minor typos (like "shorteer") for you, or are you good to copy and paste this as is?
