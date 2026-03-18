@@ -20,7 +20,10 @@ def normalize_audio(wav_tensor, target_db=-6.0):
 
 # 2. Define your local models here
 MODELS = {
-    "Custom Snare (v4)": "model 4.ts", # UPDATE THIS to your exact filename
+    "model_4_final": "model_4.ts",
+    "model_4_endphase1": "m4_endphase1.ts",
+    "model_4_midphase2": "m4_midphase2.ts",
+    "model_3.2": "SundayMorning2.ts", 
 }
 
 # Cache the model so it doesn't reload every time you click a button
