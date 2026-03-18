@@ -81,6 +81,10 @@ h1 {
   border-radius: var(--radius);
 }
 
+.full-width {
+  grid-column: 1 / -1;
+}
+
 .meta-card {
   padding: 20px;
   background: var(--surface-alt);
