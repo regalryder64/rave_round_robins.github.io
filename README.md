@@ -3,7 +3,7 @@
 ## rave_round_robins
 
 **`app`**: launches a streamlink gui which will let you generate round robins based on whatever sample you upload
-**`padscript`**: short script to pad the length of our audio files to 1.5 seconds to work with the training
+**`pad`**: short script to pad the length of our audio files to 1.5 seconds to work with the training
 **`.ts` files**: exported models
 
 --
@@ -11,7 +11,7 @@
 ## Order of operations:
 
 1. **Get dataset**
-2. **Pad files** with `padscript` if they are shorter than 1.5s
+2. **Pad files** with `pad` if they are shorter than 1.5s
 > 2.5. If training many files, concatenate them into longer series of files.
 3. **Preprocess**:
 ```bash
